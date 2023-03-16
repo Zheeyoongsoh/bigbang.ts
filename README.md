@@ -5,7 +5,7 @@ To Run this script, should follow these steps:
 
 // The compiler is written in TypeScript. Hence need a JavaScript runtime that gives access to the file system if want to create files and update files, which is why  need node. js
 
-2. Create a new file in text editor such as Notepad++ , website: https://notepad-plus-plus.org/downloads/ and copy the code above into it.
+2. Create a new file in text editor such as Notepad++ , website: https://notepad-plus-plus.org/downloads/ and copy the code above into it. Or you can dowload the bigbang.ts if you already installed text editor,then you can ignore step 3 and skip to step 4.
 3. Save the file with a .ts extension, for example bigbang.ts.
 4. Open a terminal or command prompt and navigate to the directory where you saved the file.
 
@@ -13,6 +13,6 @@ To Run this script, should follow these steps:
 
 5. Install the required dependencies by running the following command: npm init -y && npm install typescript
 6. Compile the TypeScript code into JavaScript by running the following command: npx tsc bigbang.ts
-7. Run the script by running the following command:node bigbang.js
+7. Run the script by running the following command: node bigbang.js
 
 After that, this will generate an output.json file in the same directory, containing the array of numbers and words. 
